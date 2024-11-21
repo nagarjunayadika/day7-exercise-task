@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.spotify-player-container{
+  border:2px solid black;
+  width:500px;
+  height:520px;
+  border-radius: 10px;
+  position: relative;
+}
+.fa-toggle-off, .fa-toggle-on{
+  font-size:30px !important;
+}
+
+.fa-toggle-on{
+  color:lime;
+}
+
+.poster-image{
+  width:150px;
+  height:150px;
+  border-radius: 100px;
+  margin:20px;
+}
+/* .light{background-color: #fff;} */
+.dark {
+  background-color: #000;
+}
+.dark .rhap_container{
+  background-color: #000!important;
+}
+
+.dark .rhap_time,.dark .rhap_button-clear{
+  color:white!important;
+}
+
+.menu-container .fa{
+font-size:30px !important;
+margin:40px;
+cursor: pointer;
+}
+
+
+.user-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 500px;
+  height: 520px;
+  border-radius: 10px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:20px;
+  border:1px solid white;
+  padding:10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.d-flex:hover{
+  background-color: white;
+  color:black;
+}
